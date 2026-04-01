@@ -1,0 +1,13 @@
+{
+  "name": "lac-admissions-intelligence",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "observable preview",
+    "build": "observable build",
+    "deploy": "observable deploy"
+  },
+  "dependencies": {
+    "@observablehq/framework": "^1.13.4"
+  }
+}
