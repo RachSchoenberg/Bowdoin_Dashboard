@@ -1,9 +1,16 @@
+// observablehq.config.js
 export default {
-  title: "Bowdoin Admissions Intelligence",
-  root: "src",
+  title: "Bowdoin Admissions Data Analysis",
+
   pages: [
-    { name: "Executive Overview", path: "/" },
-    { name: "Data Explorer", path: "/explorer" },
+    { name: "Executive Overview",   path: "/index"   },
+    { name: "Bowdoin Deep Dive",    path: "/bowdoin" },
+    { name: "Peer Comparison",      path: "/top20"   },
   ],
-  footer: "Source: Bowdoin Common Data Sets, 2001-2025. Peer institution acceptance rates from published CDS filings.",
+
+  
+  toc: true,          // show in-page table of contents on the right
+  pager: true,        // prev / next links at the bottom of each page
+
+  theme: "dashboard", // matches the theme: dashboard in each .md front-matter
 };

@@ -5,6 +5,7 @@ A 25-year interactive comparison of liberal arts college admissions data - built
 **Schools covered:** Bowdoin · Bates · Colby · Williams · Amherst · Middlebury  
 **Metrics:** Acceptance rate trends · Application volume · Yield rate · Estimated enrollment
 
+FileContentsindex.mdKPI cards + acceptance/yield sparkline + navigation linksbowdoin.mdFull pipeline · ED · Selectivity · Geography (enrolled + apps) · Ethnicity trend · Degrees conferredtop20.mdPeer comparisons: accept rate · yield · volume · scatter · ethnicity · Maine head-to-head
 ---
 
 ## Quick Start

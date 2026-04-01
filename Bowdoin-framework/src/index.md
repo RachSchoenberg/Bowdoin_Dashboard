@@ -83,8 +83,8 @@ Plot.plot({
   marks: [
     Plot.ruleY([0]),
     Plot.line(raw, { x: "year", y: "accept_rate", stroke: "#1B3D6E", strokeWidth: 2.5, tip: true, title: d => `Acceptance: ${d.accept_rate}%` }),
-    Plot.line(raw, { x: "year", y: "yield_rate",  stroke: "#C5A028", strokeWidth: 2, strokeDasharray: "5,3", tip: true, title: d => `Yield: ${d.yield_rate}%` }),
-    Plot.text([{ year: 2004, v: 23 }], { x: "year", y: "v", text: () => "Acceptance rate", fill: "#1B3D6E", fontSize: 10, dy: -10 }),
+    Plot.line(raw, { x: "year", y: "yield_rate",  stroke: "purple", strokeWidth: 2, strokeDasharray: "5,3", tip: true, title: d => `Yield: ${d.yield_rate}%` }),
+    Plot.text([{ year: 2004, v: 23 }], { x: "year", y: "v", text: () => "Acceptance rate", fill: "purple", fontSize: 10, dy: -10 }),
     Plot.text([{ year: 2004, v: 43 }], { x: "year", y: "v", text: () => "Yield rate",      fill: "#C5A028", fontSize: 10, dy: -10 }),
   ]
 })
